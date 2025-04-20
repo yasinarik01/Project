@@ -1,0 +1,5 @@
+Time resolution is 1 ps
+Random TX byte: d9
+Loopback received byte: d9
+✅ SUCCESS: Received data matches transmitted data.
+$finish called at time : 92650 ns : File "C:/Users/Asus/Desktop/Project/hw/uart with loopback/uart.srcs/sim_1/new/uart_tb.v" Line 80

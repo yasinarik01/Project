@@ -1,0 +1,55 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Mon Apr 14 10:39:43 2025
+# Process ID         : 13844
+# Current directory  : C:/Users/Asus/Desktop/project_startracker-main/hw/uart01/uart
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent14616 C:\Users\Asus\Desktop\project_startracker-main\hw\uart01\uart\uart.xpr
+# Log file           : C:/Users/Asus/Desktop/project_startracker-main/hw/uart01/uart/vivado.log
+# Journal file       : C:/Users/Asus/Desktop/project_startracker-main/hw/uart01/uart\vivado.jou
+# Running On         : DESKTOP-Q25IVM8
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 19045
+# Processor Detail   : Intel(R) Core(TM) i7-6500U CPU @ 2.50GHz
+# CPU Frequency      : 2592 MHz
+# CPU Physical cores : 2
+# CPU Logical cores  : 4
+# Host memory        : 12778 MB
+# Swap memory        : 1946 MB
+# Total Virtual      : 14725 MB
+# Available Virtual  : 9131 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Asus/Desktop/project_startracker-main/hw/uart01/uart/uart.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/LENOVO/Desktop/uart01/uart' since last save.
+WARNING: [filemgmt 56-2] Board Part Repository Path: Could not find the directory 'C:/Users/Asus/Desktop/project_startracker-main/AppData/Roaming/Xilinx/Vivado/2024.2/xhub/board_store/xilinx_board_store', nor could it be found using path 'C:/Users/LENOVO/AppData/Roaming/Xilinx/Vivado/2024.2/xhub/board_store/xilinx_board_store'.
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/Asus/Desktop/project_startracker-main/hw/uart01/uart/uart.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.2/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:09 . Memory (MB): peak = 1235.691 ; gain = 129.383
+update_compile_order -fileset sources_1
+reset_run synth_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Asus\Desktop\project_startracker-main\hw\uart01\uart\uart.srcs\sim_1\new\uarttest.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Asus\Desktop\project_startracker-main\hw\uart01\uart\uart.srcs\sources_1\new\uart.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Asus\Desktop\project_startracker-main\hw\uart01\uart\uart.srcs\sources_1\new\uart.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Asus\Desktop\project_startracker-main\hw\uart01\uart\uart.srcs\sources_1\new\uart.v:]
+INFO: [Project 1-1161] Replacing file C:/Users/Asus/Desktop/project_startracker-main/hw/uart01/uart/uart.srcs/utils_1/imports/synth_1/uart.dcp with file C:/Users/Asus/Desktop/project_startracker-main/hw/uart01/uart/uart.runs/synth_1/uart.dcp
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Asus\Desktop\project_startracker-main\hw\uart01\uart\uart.srcs\sim_1\new\uarttest.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Asus\Desktop\project_startracker-main\hw\uart01\uart\uart.srcs\sources_1\new\uart.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Asus\Desktop\project_startracker-main\hw\uart01\uart\uart.srcs\sim_1\new\uarttest.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Asus\Desktop\project_startracker-main\hw\uart01\uart\uart.srcs\sim_1\new\uarttest.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Asus\Desktop\project_startracker-main\hw\uart01\uart\uart.srcs\sim_1\new\uarttest.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Asus\Desktop\project_startracker-main\hw\uart01\uart\uart.srcs\sources_1\new\uart.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Asus\Desktop\project_startracker-main\hw\uart01\uart\uart.srcs\sim_1\new\uarttest.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Asus\Desktop\project_startracker-main\hw\uart01\uart\uart.srcs\sim_1\new\uarttest.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+launch_runs synth_1 -jobs 2
+[Mon Apr 14 11:56:22 2025] Launched synth_1...
+Run output will be captured here: C:/Users/Asus/Desktop/project_startracker-main/hw/uart01/uart/uart.runs/synth_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 14 11:57:18 2025...

@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Mon Apr 14 17:17:11 2025
+# Process ID         : 9648
+# Current directory  : C:/Users/Asus/Desktop/Project/hw/uart
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent8556 C:\Users\Asus\Desktop\Project\hw\uart\uart.xpr
+# Log file           : C:/Users/Asus/Desktop/Project/hw/uart/vivado.log
+# Journal file       : C:/Users/Asus/Desktop/Project/hw/uart\vivado.jou
+# Running On         : DESKTOP-Q25IVM8
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 19045
+# Processor Detail   : Intel(R) Core(TM) i7-6500U CPU @ 2.50GHz
+# CPU Frequency      : 2592 MHz
+# CPU Physical cores : 2
+# CPU Logical cores  : 4
+# Host memory        : 12778 MB
+# Swap memory        : 1946 MB
+# Total Virtual      : 14725 MB
+# Available Virtual  : 7467 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Asus/Desktop/Project/hw/uart/uart.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+launch_simulation
+source uart_tb.tcl
+close_sim
