@@ -1,0 +1,3 @@
+Time resolution is 1 ps
+Loopback received byte: 3c
+$finish called at time : 92650 ns : File "C:/Users/Asus/Desktop/Project/hw/uart without loopback/uart.srcs/sim_1/new/uart_tb.v" Line 73
