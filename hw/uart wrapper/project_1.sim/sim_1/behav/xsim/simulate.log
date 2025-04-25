@@ -1,0 +1,14 @@
+Time resolution is 1 ps
+[1100000 ns] Sending RX byte: 0x10
+[83630000 ns] UART received RX byte: 0x10
+[83670000 ns] UART accepted TX byte: 0x13
+[92350000 ns] TX bit[0] = 1
+[101030000 ns] TX bit[1] = 1
+[109710000 ns] TX bit[2] = 0
+[118390000 ns] TX bit[3] = 0
+[127070000 ns] TX bit[4] = 1
+[135750000 ns] TX bit[5] = 0
+[144430000 ns] TX bit[6] = 0
+[153110000 ns] TX bit[7] = 0
+[426420000 ns] ✅ TEST PASSED: TX output is 0x13 as expected.
+$finish called at time : 426420 ns : File "C:/Users/Asus/Desktop/project_1.hw/project_1.srcs/sim_1/new/uart_wrapper_tb.v" Line 77
