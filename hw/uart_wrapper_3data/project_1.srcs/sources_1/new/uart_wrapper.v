@@ -44,7 +44,7 @@ module uart_wrapper #(
         end else begin
             case (state)
                 IDLE: begin
-                    // tx_ready kontrolü çıkarıldı, rx_data_valid'e odaklanıldı
+                    
                     if (rx_data_valid && tx_ready) begin
                         tx_data <= rx_data + 8'd3;
                         tx_data_valid <= 1;
