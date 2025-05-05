@@ -18,14 +18,14 @@ module uart #(
 
     localparam BIT_PERIOD = CLK_FREQ / BAUD_RATE;
 
-    // TX tarafı
+    
     reg [15:0] tx_clk_counter;
     reg [3:0]  tx_bit_index;
     reg [DATA_WIDTH-1:0] tx_shift_reg;
     reg tx_sending;
     reg tx_stop_bit;
 
-    // RX tarafı
+    
     reg [15:0] rx_clk_counter;
     reg [3:0]  rx_bit_index;
     reg [DATA_WIDTH-1:0] rx_shift_reg;
@@ -34,7 +34,7 @@ module uart #(
 
     assign busy = tx_sending || rx_receiving;
 
-    // RX senkronizasyonu (double flip-flop)
+    
     always @(posedge clk)
         rx_sync <= {rx_sync[0], rx};
 
@@ -49,7 +49,7 @@ module uart #(
             tx_bit_index <= 0;
             tx_shift_reg <= 0;
 
-            // RX sıfırlama
+            
             data_out <= 0;
             data_out_valid <= 0;
             rx_clk_counter <= 0;
@@ -58,7 +58,7 @@ module uart #(
             rx_receiving <= 0;
         end else begin
             //--------------------------------------
-            // TX Logic
+            
             //--------------------------------------
             if (data_in_valid && tx_ready) begin
                 tx_shift_reg <= data_in;
