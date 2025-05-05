@@ -1,0 +1,31 @@
+Time resolution is 1 ps
+[1100000 ns] Sending RX byte: 0x10
+[74950000 ns] UART received RX byte: 0x10
+[74990000 ns] UART accepted TX byte: 0x13
+[83670000 ns] TX bit[0] = 1
+[92350000 ns] TX bit[1] = 1
+[101030000 ns] TX bit[2] = 0
+[109710000 ns] TX bit[3] = 0
+[118390000 ns] TX bit[4] = 1
+[127070000 ns] TX bit[5] = 0
+[135750000 ns] TX bit[6] = 0
+[148770000 ns] UART received RX byte: 0x7f
+[148810000 ns] UART accepted TX byte: 0x82
+[157490000 ns] TX bit[0] = 0
+[166170000 ns] TX bit[1] = 1
+[174850000 ns] TX bit[2] = 0
+[183530000 ns] TX bit[3] = 0
+[192210000 ns] TX bit[4] = 0
+[200890000 ns] TX bit[5] = 0
+[209570000 ns] TX bit[6] = 0
+[426420000 ns] Sending RX byte: 0xA5
+[500270000 ns] UART received RX byte: 0xa5
+[500310000 ns] UART accepted TX byte: 0xa8
+[508990000 ns] TX bit[0] = 0
+[517670000 ns] TX bit[1] = 0
+[526350000 ns] TX bit[2] = 0
+[535030000 ns] TX bit[3] = 1
+[543710000 ns] TX bit[4] = 0
+[552390000 ns] TX bit[5] = 1
+[561070000 ns] TX bit[6] = 0
+[895140000 ns] Sending RX byte: 0xFF
