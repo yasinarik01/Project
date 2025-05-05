@@ -40,7 +40,7 @@ module uart #(
 
     always @(posedge clk) begin
         if (reset) begin
-            // TX sıfırlama
+            
             tx <= 1;
             tx_ready <= 1;
             tx_sending <= 0;
