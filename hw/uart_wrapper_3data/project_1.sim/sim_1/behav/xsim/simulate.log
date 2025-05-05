@@ -1,0 +1,5 @@
+Time resolution is 1 ps
+[1100000 ns] Sending RX byte: 0x10
+[469820000 ns] Sending RX byte: 0xA5
+[938540000 ns] Sending RX byte: 0xFF
+$finish called at time : 1494060 ns : File "C:/Users/Asus/Desktop/Project/hw/uart wrapper 3data/project_1.srcs/sim_1/new/uart_wrapper_tb.v" Line 77

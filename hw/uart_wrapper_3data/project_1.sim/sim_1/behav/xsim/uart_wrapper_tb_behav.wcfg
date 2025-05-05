@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="uart_wrapper_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="uart_wrapper_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="16.158390 us"></ZoomStartTime>
+      <ZoomEndTime time="116.558391 us"></ZoomEndTime>
+      <Cursor1Time time="201.000000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="182"></NameColumnWidth>
+      <ValueColumnWidth column_width="87"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="31" />
+   <wvobject fp_name="/uart_wrapper_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_wrapper_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_wrapper_tb/rx" type="logic">
+      <obj_property name="ElementShortName">rx</obj_property>
+      <obj_property name="ObjectShortName">rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_wrapper_tb/tx" type="logic">
+      <obj_property name="ElementShortName">tx</obj_property>
+      <obj_property name="ObjectShortName">tx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_wrapper_tb/CLK_FREQ" type="array">
+      <obj_property name="ElementShortName">CLK_FREQ[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CLK_FREQ[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_wrapper_tb/BAUD_RATE" type="array">
+      <obj_property name="ElementShortName">BAUD_RATE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BAUD_RATE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_wrapper_tb/DATA_WIDTH" type="array">
+      <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_wrapper_tb/BIT_PERIOD" type="array">
+      <obj_property name="ElementShortName">BIT_PERIOD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BIT_PERIOD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_wrapper_tb/dut/uart_inst/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_wrapper_tb/dut/uart_inst/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_wrapper_tb/dut/uart_inst/rx" type="logic">
+      <obj_property name="ElementShortName">rx</obj_property>
+      <obj_property name="ObjectShortName">rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_wrapper_tb/dut/uart_inst/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_wrapper_tb/dut/uart_inst/data_in_valid" type="logic">
+      <obj_property name="ElementShortName">data_in_valid</obj_property>
+      <obj_property name="ObjectShortName">data_in_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_wrapper_tb/dut/uart_inst/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_wrapper_tb/dut/uart_inst/data_out_valid" type="logic">
+      <obj_property name="ElementShortName">data_out_valid</obj_property>
+      <obj_property name="ObjectShortName">data_out_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_wrapper_tb/dut/uart_inst/tx" type="logic">
+      <obj_property name="ElementShortName">tx</obj_property>
+      <obj_property name="ObjectShortName">tx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_wrapper_tb/dut/uart_inst/tx_ready" type="logic">
+      <obj_property name="ElementShortName">tx_ready</obj_property>
+      <obj_property name="ObjectShortName">tx_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_wrapper_tb/dut/uart_inst/busy" type="logic">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_wrapper_tb/dut/uart_inst/tx_clk_counter" type="array">
+      <obj_property name="ElementShortName">tx_clk_counter[15:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_clk_counter[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_wrapper_tb/dut/uart_inst/tx_bit_index" type="array">
+      <obj_property name="ElementShortName">tx_bit_index[3:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_bit_index[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_wrapper_tb/dut/uart_inst/tx_shift_reg" type="array">
+      <obj_property name="ElementShortName">tx_shift_reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_shift_reg[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_wrapper_tb/dut/uart_inst/tx_sending" type="logic">
+      <obj_property name="ElementShortName">tx_sending</obj_property>
+      <obj_property name="ObjectShortName">tx_sending</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_wrapper_tb/dut/uart_inst/rx_clk_counter" type="array">
+      <obj_property name="ElementShortName">rx_clk_counter[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_clk_counter[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_wrapper_tb/dut/uart_inst/rx_bit_index" type="array">
+      <obj_property name="ElementShortName">rx_bit_index[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_bit_index[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_wrapper_tb/dut/uart_inst/rx_shift_reg" type="array">
+      <obj_property name="ElementShortName">rx_shift_reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_shift_reg[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_wrapper_tb/dut/uart_inst/rx_receiving" type="logic">
+      <obj_property name="ElementShortName">rx_receiving</obj_property>
+      <obj_property name="ObjectShortName">rx_receiving</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_wrapper_tb/dut/uart_inst/rx_sync" type="array">
+      <obj_property name="ElementShortName">rx_sync[1:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_sync[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_wrapper_tb/dut/uart_inst/CLK_FREQ" type="array">
+      <obj_property name="ElementShortName">CLK_FREQ[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CLK_FREQ[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_wrapper_tb/dut/uart_inst/BAUD_RATE" type="array">
+      <obj_property name="ElementShortName">BAUD_RATE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BAUD_RATE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_wrapper_tb/dut/uart_inst/DATA_WIDTH" type="array">
+      <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_wrapper_tb/dut/uart_inst/BIT_PERIOD" type="array">
+      <obj_property name="ElementShortName">BIT_PERIOD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BIT_PERIOD[31:0]</obj_property>
+   </wvobject>
+</wave_config>
